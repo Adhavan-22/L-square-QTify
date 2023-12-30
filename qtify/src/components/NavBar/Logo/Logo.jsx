@@ -1,4 +1,4 @@
-import LogoImage from "../../../Assets/logo.png";
+import LogoImage from "../../../Assets/Logo.png";
 
 /**
  * Represents the logo component.
