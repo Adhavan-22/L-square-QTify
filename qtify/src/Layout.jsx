@@ -1,4 +1,7 @@
 import React from "react";
+import Faqs from "./components/Faqs/Faqs"
+ import AudioPlayer from "./components/AudioPlayer/AudioPlayer";
+import Songs from "./components/Songs/Songs";
 import NavBar from "./components/NavBar/NavBar";
 import HeroSection from "./components/HeroSection/HeroSection";
 import TopAlbum from "./components/topAlbum/TopAlbum";
@@ -11,8 +14,12 @@ const Layout = () => {
         {/* Render the navigation bar */}
         <NavBar />
         <HeroSection />
+        <TopAlbum/>
         <NewAlbum />
-        <TopAlbum />
+         <Songs/>
+         <Faqs/>
+         <AudioPlayer />  
+        
         </div>
   );
 };
